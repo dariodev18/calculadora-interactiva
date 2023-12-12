@@ -3,6 +3,7 @@
     display: flex;
     flex: 1 1;
     justify-content: center;
+    align-items: center;
     font-weight: bold;
     font-size: 38px;
     background-color: #1b1b32;
@@ -14,6 +15,14 @@
     user-select: none;
 }
 
+.boton-contenedor:hover{
+    background-color: #5a01a7;
+}
+
 .operador{
     background-color: #00471b;
+}
+
+.operador:hover{
+    background-color: #ff6600;
 }
